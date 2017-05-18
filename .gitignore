@@ -1,0 +1,7 @@
+.idea/
+Include/
+Lib/
+Scripts/
+pip-selfcheck.json
+share/
+tcl/
