@@ -5,3 +5,4 @@ Scripts/
 pip-selfcheck.json
 share/
 tcl/
+__pycache__/

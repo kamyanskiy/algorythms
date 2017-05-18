@@ -78,11 +78,6 @@ class FactorizeNumber(object):
     def show_factorized_sequence(limit):
         for lst in FactorizeNumber.factorize_sequence(limit):
             print("{0} = {1}".format(
-                str(reduce(lambda x, y: x*y, lst)), "*".join(str(x) for x in lst)))
+                str(reduce(lambda x, y: x*y, lst)), "*".join(
+                    str(x) for x in lst)))
 
-
-import time
-start = time.clock()
-[i for i in FactorizeNumber.factorize_sequence(100000)]
-result = time.clock() - start
-print (result)
