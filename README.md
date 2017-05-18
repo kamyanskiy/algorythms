@@ -4,7 +4,7 @@ here some measurements of algorythms for (sieve of Eratosthenes)
 
 files: multX.py
 
-Also in factoring.py FactorizeNumber program that obtains factor per
+Also factoring.py uses one algorythm to obtains factor per
 each number of sequence 1..N
 ```
 In [1]: import factoring
